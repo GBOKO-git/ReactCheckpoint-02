@@ -12,6 +12,7 @@ const players = [
         shirtNumber: 10,
         age: 37,
         image: '/goat.webp',
+        // juste pour personnalisé le titre
         footballeur: 'Footballeur'
     },
     {
@@ -21,15 +22,17 @@ const players = [
         shirtNumber: 10,
         age: 27,
         image: 'dembele.jpg',
+        // juste pour personnalisé le titre
         footballeur: 'Footballeur'
     },
     {
         name:'Franck Kessie',
         club: 'Al Ahli',
         country: `Cote d'ivoire`,
-        shirtNumber: 79,
+        shirtNumber: 8,
         age: 28,
         image: 'kessie.jpg',
+         // juste pour personnalisé le titre
         footballeur: 'Footballeur'
     },
     {

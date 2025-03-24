@@ -1,3 +1,62 @@
+# React JS Fundamentals - Checkpoint 02
+Bienvenue dans le projet React Checkpoint 02 où vous apprendrez à créer des cartes de joueur FIFA en utilisant React.
+
+# Objectif
+Dans ce projet, vous allez construire une interface qui affiche des informations sur différents joueurs de football sous forme de cartes. Vous utiliserez les concepts fondamentaux de React, tels que les composants, les props et le passage de données entre les composants.
+
+# Instructions
+# 1. Créez un projet avec create-react-app
+Commencez par créer un nouveau projet React avec la commande suivante :
+
+Utilisez npx create-react-app pour créer votre projet.
+
+Accédez au répertoire du projet créé.
+
+# 2. Créez un fichier players.js
+Créez un fichier appelé players.js dans le dossier src/ pour définir un tableau d'objets JSON contenant les informations des joueurs. Ajoutez au moins 4 joueurs avec les informations suivantes :
+
+Nom du joueur
+
+Équipe du joueur
+
+Nationalité du joueur
+
+Numéro de maillot
+
+Âge du joueur
+
+URL de l'image du joueur
+
+# 3. Créez un fichier Player.js
+Créez un composant Player qui affichera les informations de chaque joueur sous forme de carte. Utilisez React-Bootstrap pour la mise en page et les styles. Assurez-vous de :
+
+Déstructurer les props pour chaque joueur.
+
+Utiliser un style en ligne pour personnaliser l'apparence de la carte.
+
+# 4. Créez un fichier PlayersList.js
+Créez un composant PlayersList qui affiche tous les joueurs en parcourant le tableau de joueurs avec la méthode .map(). Assurez-vous de :
+
+Passer les informations du joueur comme props au composant Player.
+
+# 5. Modifiez App.js
+Dans le fichier App.js, importez le composant PlayersList et affichez-le dans le rendu de l'application.
+
+# 6. Installez React-Bootstrap
+Assurez-vous d'installer React-Bootstrap pour pouvoir utiliser les composants comme les cartes. Pour ce faire :
+
+Installez React-Bootstrap et Bootstrap.
+
+Importez le fichier CSS de Bootstrap dans le fichier index.js.
+
+# Tester le projet
+Pour tester votre projet, exécutez la commande suivante dans le terminal à partir du répertoire de votre projet :
+
+Lancez le serveur de développement avec npm start.
+
+Ouvrez votre navigateur et accédez à http://localhost:3000 pour voir l'application en action.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
