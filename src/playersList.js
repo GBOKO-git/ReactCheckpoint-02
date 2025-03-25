@@ -1,6 +1,6 @@
 // Import du composant Player et les données des joueurs à partir de players.js.
 import Player from './Player';
-import players from './players';
+import players from './Players';
 //Affichez tous les joueurs à l'intérieur de PlayerList.js, en parcourant tous les éléments du tableau de joueurs (consultez la fonction .map).
  const PlayersList = () =>{
     return (
